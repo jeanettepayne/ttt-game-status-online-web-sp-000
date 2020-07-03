@@ -26,5 +26,5 @@ def won?(board)
 end
 
 def full?(board)
-  
+  until board ==
 end
