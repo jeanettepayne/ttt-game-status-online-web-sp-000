@@ -26,5 +26,6 @@ def won?(board)
 end
 
 def full?(board)
-  until board ==
+  until board[0] == "X" || board[0] == "O"
+  FALSE
 end
