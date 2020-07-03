@@ -40,4 +40,6 @@ end
 def winner(board)
   board[0] == "X" 
   return "X"
+  board[0] == "O"
+  return "O"
 end
