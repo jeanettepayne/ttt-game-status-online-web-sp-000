@@ -40,5 +40,4 @@ end
 def winner(board)
   if board[#{win_combination}] == "X" 
   return "X"
- end
 end
