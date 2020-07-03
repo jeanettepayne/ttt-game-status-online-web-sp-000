@@ -38,7 +38,7 @@ def over?(board)
 end
 
 def winner(board)
-  if board[0] == "X" 
+  if board[#{win_combination}] == "X" 
   return "X"
   elsif win_combination[0] == "O"
   return "O"
