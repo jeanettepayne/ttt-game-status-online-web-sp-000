@@ -28,4 +28,5 @@ end
 def full?(board)
   until board[0] == "X" || board[0] == "O"
   FALSE
+ end
 end
