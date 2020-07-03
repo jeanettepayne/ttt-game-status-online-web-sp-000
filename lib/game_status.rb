@@ -40,7 +40,5 @@ end
 def winner(board)
   if board[#{win_combination}] == "X" 
   return "X"
-  elsif win_combination[0] == "O"
-  return "O"
  end
 end
