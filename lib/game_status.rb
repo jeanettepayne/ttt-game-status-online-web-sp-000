@@ -38,6 +38,6 @@ def over?(board)
 end
 
 def winner(board)
-  win_combination = board(won) 
+  win_combination = won?(board) 
   return "X"
 end
