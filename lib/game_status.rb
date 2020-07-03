@@ -39,5 +39,7 @@ end
 
 def winner(board)
   win_combination = won?(board) 
+  winning_location = win_combination[0]
+  
   return "X"
 end
