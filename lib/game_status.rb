@@ -24,3 +24,7 @@ def won?(board)
   board[combo1] == board[combo2] && board[combo2] == board[combo3] && board[combo1] != " "
  end
 end
+
+def full?(board)
+  
+end
