@@ -38,6 +38,6 @@ def over?(board)
 end
 
 def winner(board)
-  board[#{win_combination}] == "X" 
+  win_combination = board(won) 
   return "X"
 end
