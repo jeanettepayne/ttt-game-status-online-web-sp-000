@@ -35,3 +35,4 @@ def draw?(board)
 else 
   FALSE
 end
+end
